@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     String SMS = "android.provider.Telephony.SMS_RECEIVED";
-    TextView message, number;
+    TextView message;
 
     SmsBroadcast smsBroadcast = new SmsBroadcast() {
         @Override
